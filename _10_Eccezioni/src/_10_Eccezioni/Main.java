@@ -13,7 +13,7 @@ public class Main {
 
         //ECCEZIONI
       try {
-        
+         
 	        int divisione = numeratore/denominatore;
 	        System.out.println("Risultato: " + divisione);
       }
