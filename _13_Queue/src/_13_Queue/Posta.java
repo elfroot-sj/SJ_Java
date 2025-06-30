@@ -22,7 +22,7 @@ public class Posta {
 	
 	public void mostraCoda() {
 		for(Persona i : coda) {
-			System.out.println("- " + i.getNome());
+			System.out.println("- " + i.getNome()); //devo mettere getNome per ottenere il nome
 		}
 	}
 }
