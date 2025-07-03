@@ -8,7 +8,8 @@ public class Main {
         System.out.println("Password (mascherata): " + emp.getPassword());
 
         System.out.println("\nModifico la password in 'ciao':");
-        emp.setPassword("ciao"); // troppo corta → non viene accettata
+        emp.setPassword("ciao"); // troppo corta → non viene accettata e quindi pass123 non viene cambiata
+        //emp.setPassword("newpassword"); //password accettata (se sblocchi questo setter commenta quello sopra)
 
         System.out.println("Password attuale (mascherata): " + emp.getPassword());
     }

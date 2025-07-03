@@ -10,10 +10,10 @@ public class Person {
         this.name = name;
         this.surname = surname;
         this.age = age;
-        setPassword(password); // usa il setter per applicare validazione
+        setPassword(password); // usa il setter per applicare validazione -------- è come scrivere: this.setPassword(password);
     }
 
-    public String getName() {
+    public String getName() {  //String è il tipo di ritorno
         return name;
     }
 

@@ -18,7 +18,7 @@ public class Employee extends Person {
 
     @Override
     public String toString() {
-        return super.toString() + ", Lavora come: " + jobTitle;
+        return super.toString() + "\nLavora come: " + jobTitle; //super.toString() chiama il metodo toString() della superclasse Person
     }
 }
 
